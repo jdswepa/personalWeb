@@ -1,0 +1,278 @@
+body{
+    background-color: #F0EFEB;
+    font-family: cursive;
+}
+.right, .PersonalInfo p , #uni, #cerPics2, #text1, #text2, .Projects object{
+    border-radius: 25px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.right:hover, .PersonalInfo p:hover,#text1:hover, #text2:hover, #uni:hover{
+    
+    /* This is 52px total. 1/2 of that is for top and the other half is for bottom. */
+    -webkit-box-shadow: 0 0 50px rgb(120, 120, 120);
+    -webkit-box-shadow: 0 0 50px rgb(120, 120, 120);
+    -webkit-box-shadow: 0 0 50px rgb(120, 120, 120);
+    margin-top: -18px;
+
+}
+.logo :hover{
+    height: 190px;
+
+}
+.logo, .navgation {
+    
+    background-color: #F0EFEB;
+    text-align: center; 
+    word-spacing: 100px ;
+    padding: 20px;
+
+}
+.navgation a:hover{
+    color:rgb(103, 102, 102);
+}
+.navgation a { 
+    color: inherit;
+    text-decoration:none; 
+    white-space: pre-line;
+
+ } 
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    align-items:normal;
+    flex-wrap: wrap;
+    margin: 10px;
+    gap: 5px;
+    
+}
+.pic1{
+    border-radius: 25px;
+    width: 500px;
+}
+
+.right{
+    font-size: x-large;
+    flex-grow: 20;
+    background-color: #0B4141;
+    color: #f5f3eb; 
+    text-align: center;
+    padding: 150px; 
+    
+}
+.right p{
+    font-size: small;
+}
+.PersonalInfo{
+    word-wrap: break-word;
+    text-align:center;
+}
+.PersonalInfo p {
+    background-color: #d8d9c6;
+    padding: 60px; 
+}
+
+h2{text-align: center;}
+
+.Education{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+#uni{
+    background-color: #8baf9e;
+    border-radius: 25px;
+    padding: 50px; 
+    white-space: wrap;    
+
+}
+#cerPics2{
+  overflow:scroll;
+  white-space: nowrap;  
+  flex-grow: 20;
+  width: 550px;
+  border-radius: 25px;
+  height: 500px;
+}
+#proj1_dis{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+
+    
+}
+
+#text1{
+    background-color: #8baf9e;
+    text-align: justify;
+    width: 550px;
+    padding: 50px; 
+    border-radius: 25px;
+    flex-grow: 20;
+    white-space: wrap; 
+ 
+}
+.prisintation object{
+    width:500px;
+    height:350px;
+}
+#text2{
+    background-color: #8baf9e;
+    text-align: justify;
+    width: 550px;
+    padding: 50px; 
+    border-radius: 25px;
+    flex-grow: 20;
+    white-space: wrap; 
+  
+ 
+}
+#proj2_dis{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top:20px;
+}
+
+footer{
+    text-align: center;
+}
+
+@media screen and (max-width: 576px){
+
+    h2{text-align: center;}
+    .navgation{
+        width: 490px;
+        text-align: center;
+    }
+    
+   
+    .right{
+        width: 350px;
+        height: 200px;
+    }
+    .PersonalInfo{
+        width: 550px;
+    }
+    .Education{
+        width: 920px;
+    }
+    #proj1_dis{
+        width: 900px;
+    }
+    #proj2_dis{
+        width: 900px;
+    }
+    .prisintation object{
+        
+        width: 550px;
+        height: 250px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 768px){
+    .pic1{
+        width: 680px;
+        margin-left: 10px;
+    }
+    .right{
+        margin-left: 10px;
+
+    }
+    #uni{
+        width: 680px;
+    }
+    .prisintation object{
+        width: 700px;
+        height: 450px;
+        margin-left: 30px;
+
+    }
+}
+
+
+@media screen and (max-width: 993px){
+    .intro{    flex-wrap: nowrap;
+    }
+    .pic1{
+        width: 450px;
+        height: 500px;
+        
+
+    }
+    .right{
+        margin-left: 10px;
+
+    }
+    #uni{
+        width: 880px;
+    }
+    .prisintation object{
+        width: 880px;
+        height: 450px;
+        margin-left: 50px;
+
+    }
+}
+
+@media screen and (max-width: 376px){
+    .logo{
+        height: 50px;
+        margin-left: 10px;
+        margin-bottom: 50px;
+       
+    }
+    h2{
+        text-align: left;
+    }
+.navgation{
+    width: 350px;
+    height: 50px;
+    text-align:center;
+}
+.intro{   
+     flex-wrap: wrap;
+}
+.pic1{
+    width: 320px;
+    height: 350px;
+    
+}
+.right{
+    width: 150px;
+    height: 200px;
+    padding: 50px;
+}
+.PersonalInfo{
+    width: 330px;
+    margin-left: 20px;
+}
+
+#uni{
+    width: 230px;
+    margin-left: 20px;
+
+}
+#cerPics2{
+    width: 380px;
+    height: 450px;
+}
+.prisintation object{
+    width: 380px;
+    height: 450px;
+
+}
+@media screen and (max-width: 1201px){
+    .pic1{width: 450px;}
+}
+
+}
